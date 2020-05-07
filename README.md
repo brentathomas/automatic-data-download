@@ -13,6 +13,16 @@ Build using 'mvn clean package'.
 In src/main/scripts, modify 'download.properties' as appropriate. The defaults mostly work,
 but you must add an access token value.
 
+The bearer token can be retrieved after login on the Automatic dashboard.
+* Login to Automatic dashboard at https://dashboard.automatic.com/
+* Open Chrome Developer Tools.
+* Go to Application tab.
+* Under Local Storage, you'll find a value for accessToken.
+* Copy and paste that value in the download.properties file under auth.bearer.token value.
+
+Alternatively, from the dashboard page, execute this in the url box. When you paste it,
+it may drop the javascript prefix, so you'll need to add it back manually.
+* javascript:alert(localStorage.getItem('accessToken'));
 
 
 ## Run
