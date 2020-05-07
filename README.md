@@ -1,6 +1,17 @@
 # automatic-data-download
 A utility to download trip data from the Automatic dashboard at https://dashboard.automatic.com/.
 
+Automatic has announced that they are shutting down on May 28, 2020. You have until then
+to get your data out!
+https://automatic.com/customerfaq
+
+I have never been able to export all my data from the Automatic dashboard successfully, so
+I wrote this little app to pull the data out and save it as json files.
+
+I will also be adding a transformation to convert the json files into a CSV format
+to make it easier to import into spreadsheets for additional analysis and charting.
+
+
 # Usage
 
 ## Build
